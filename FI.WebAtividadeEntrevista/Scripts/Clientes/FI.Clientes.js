@@ -1,5 +1,6 @@
 ﻿$(document).ready(function () {
     applyInputMask();
+    carregarSelectEstado();
 
     $('#formCadastro').submit(function (e) {
         e.preventDefault();

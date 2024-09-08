@@ -1,5 +1,7 @@
 ﻿$(document).ready(function () {
     applyInputMask();
+    carregarSelectEstado();
+
 
     if (obj) {
         $('#formCadastro #Nome').val(obj.Nome);

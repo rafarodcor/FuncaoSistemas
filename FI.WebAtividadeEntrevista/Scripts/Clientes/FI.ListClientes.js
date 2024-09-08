@@ -20,6 +20,7 @@
                     width: '40%'
                 },
                 Alterar: {
+                    sorting: false,
                     title: '',
                     width: '5%',
                     display: function (data) {
@@ -27,6 +28,7 @@
                     }
                 },
                 Excluir: {
+                    sorting: false,
                     title: '',
                     width: '5%',
                     display: function (data) {
